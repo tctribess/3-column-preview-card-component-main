@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    background: hsl(0, 0%, 95%);
+    width: 1440px;
+}
+
+#main-content{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+}
+
+.card {
+    width: 305px;
+    height: 500px;
+}
+
+#card-sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius:  10px 0 0 10px;    
+}
+
+#card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.icon {
+    width: 58px;
+    height: 32px;
+    margin-top: 20px;
+}
+
+.content {
+    margin: 45px;
+    justify-content: start;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 37px;
+    color: hsl(0, 0%, 95%);
+    margin-top: 40px;
+}
+
+P{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 40;
+}
+
+.btn {
+   border-color: hsl(0, 0%, 95%); 
+   border-style: solid;
+   width: 145px;
+   height: 45px;
+   border-radius: 30px;
+   font-family: 'Lexend Deca', sans-serif;
+   background-color: hsl(0, 0%, 95%);
+   margin-top: 90px;
+}
+
+:hover .btn {
+    cursor: pointer;    
+}
+
+#btn-sedan{
+    color: hsl(31, 77%, 52%);
+}
+
+#btn-sedan:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#btn-suv {
+    color: hsl(184, 100%, 22%);
+}
+
+#btn-suv:hover{
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#btn-luxury{
+    color: hsl(179, 100%, 13%);
+}
+
+#btn-luxury:hover {
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+}
+
+@media (max-width: 376px) {
+
+    body{
+        width: 375px;
+    }
+
+    #main-content{
+        flex-direction: column;
+        width: 350px;
+        height: auto;
+        margin: 12.5px;
+    }
+    #card-sedan {
+        border-radius: 10px 10px 0 0;
+    }
+    #card-luxury {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
