@@ -102,7 +102,7 @@ P{
     color:hsl(0, 0%, 95%);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 500px) {
 
     body{
         width: 375px;
